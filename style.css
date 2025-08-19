@@ -301,6 +301,1354 @@ nav.featured-380{
     padding: 15px 15px 15px 0;
 }
 
+.ai{
+    width: 100%;
+    background-image: linear-gradient(174deg, rgb(0, 50, 89) 0%, rgb(0, 50, 89) 50.25%, rgb(1, 61, 107) 100%);
+    color: white;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.ai .section1{
+    display: flex;
+    flex-direction: column;
+}
+
+.ai .section1 .sec1{
+    display: flex;
+    gap: 10px;
+}
+
+.section1 .sec1 .title1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.24px;
+}
+
+
+.section1 .sec1 .title2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin-top: 5px;
+   
+}
+
+.section1 .sec2 .sub-title{
+     font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.36px;
+     margin-top: 10px;
+    
+}
+
+.section2{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, rgb(3, 137, 182), rgb(71, 215, 248)) 1;
+    margin-top: 10px  ;
+}
+
+.section2 input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.next-but svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.section23{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.section3 .ai-but1{
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #8dc8e8;
+    background-color:rgb(1, 61, 107) ;
+    color: rgb(244, 250, 253);
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    font-family:"Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif; 
+
+}
+
+.section3 .ai-but2{
+    width: 295px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #8dc8e8;
+    background-color:rgb(1, 61, 107) ;
+    color: rgb(244, 250, 253);
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    font-family:"Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.featured-news{
+    width: 100%;
+    position: relative;
+   
+}
+
+.featured-news picture, .featured-news picture img{
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.featured-news .heading1{
+    padding: 50px 0 15px 15px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing:-0.48px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+
+}
+
+.featured-news .heading2{
+    padding: 0px 0px 20px 15px;
+     color: rgb(23, 37, 61);
+    letter-spacing: -0.8px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    /* background-color: #8dc8e8; */
+}
+
+.cards .card1{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cards .card2{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.cards .card3{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.card1 .card-img{
+    width: 100%;
+    
+}
+.card2 .card-img{
+    width: 100%;
+    
+}
+
+.card3 .card-img{
+    width: 100%;
+    
+}
+
+.card1 .card-img img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card2 .card-img img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card3 .card-img img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+
+.cards .title{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    padding: 0 8px;
+}
+
+.cards .des{
+    margin-top: 15px;
+    letter-spacing: -0.48px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    line-height: 24px;
+    padding: 0 8px;
+    margin-right: 12px;
+
+}
+
+.button-text{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+.button-text .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+
+.button-text1{
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+.button-text1 .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text1 span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+.button-text2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+.button-text2 .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text2 span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.sol-chev-right {
+    padding: 10px;
+    width: 45px;
+    height: 43px;
+    border: 2px solid #004275;
+    border-radius: 50%;
+    align-self: center;
+}
+
+
+.sol-chev-right img {
+    width: 20px;
+    height: 20px;
+}
+
+.solutions{
+    width: 100%;
+    background-color: rgb(244, 250, 253);
+    padding: 100px 10px 10px 10px;
+
+}
+
+.sol-but{
+    display: flex;
+    padding: 10px 0 0px 10px;
+    gap: 7px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.solutions .heading1{
+    padding-left: 6px;
+    color: rgb(23, 37, 61);
+     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     letter-spacing: 0.96px;
+     font-size: 12px;
+     font-weight: 600;
+     line-height: 16px;
+}
+
+.solutions .heading2{
+    padding-left: 5px;
+    color: rgb(23, 37, 61);
+     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     letter-spacing: -0.8px;
+     font-size: 32px;
+     font-weight: 500;
+     line-height: 40px;
+     margin-top: 12px;
+     padding-bottom: 15px;
+}
+
+
+.sol-but .button1{
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 85, 151);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+
+}
+.sol-but1 .button1{
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 85, 151);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+
+}
+
+.sol-but .button2,.sol-but .button3,.sol-but .button4,.sol-but .button5{
+    padding: 8px 12px 9px 12px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 66, 117);
+    background-color: rgba(0, 85, 151, 0.1);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    
+}
+
+.sol-but1 .button2,.sol-but1 .button3,.sol-but1 .button4,.sol-but1 .button5{
+    padding: 8px 12px 9px 12px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 66, 117);
+    background-color: rgba(0, 85, 151, 0.1);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    
+}
+
+.slider{
+    display: flex;
+    padding-right: 7px;
+}
+
+
+
+.sol-sec1,.sol-sec2,.sol-sec3,.sol-sec4,.sol-sec5{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgb(14, 23, 38);
+    color: rgb(14, 23, 38);
+     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 24px;
+
+}
+
+.sol-sec1 .sol-chev-up{
+   align-self: center;
+}
+
+
+.sol-sections{
+    padding: 0 11px;
+}
+
+
+.sol-right{
+    display: none;
+}
+
+
+    .sol-sec1-extra .sol-sec-link {
+        display: none;
+    }
+
+     .sol-sec-content{
+                display: none;
+    }
+
+
+    .main-solution{
+        width: 100%;
+        background-color: rgb(244, 250, 253);
+
+    }
+
+
+    .pands{
+        width: 100%;
+        padding-top: 95px;
+        background-color: rgb(244, 250, 253);
+    }
+
+
+    .pands .heading1 {
+    padding-left: 16px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing: 0.96px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+
+.pands .heading2 {
+    padding-left: 15px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing: -1.2px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 12px;
+    padding-bottom: 20px;
+}
+
+.pands .p-sections{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pands .p-sections .p-section1{
+    width: 100%;
+    padding: 20px 19px 0px 19px;    
+}
+
+.pands .p-sections .p-section1 .card1{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-mobile-card-grid-product-and-services-promo-card-featured-328x266?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=548&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    margin-top: 10px;
+    
+}
+
+.pands .p-sections .p-section1 .card1 .pcon{
+    padding: 20px 18px 20px 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+}
+
+.p-sections .fimage1{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+.p-section1 .pcon .phead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.36px;
+    color: rgb(14, 23, 38);
+    margin-bottom: 10px;
+}
+
+.p-section1 .pcon .phead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    color: rgb(23, 37, 61);
+    margin-bottom: 10px;
+}
+
+.p-section1 .pcon .pbutton{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    background-color: rgb(0, 120, 212);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+
+
+
+
+.p-section2 .section21{
+    width: 100%;
+    
+}
+
+.pands .p-sections .p-section2{
+    width: 100%;
+    padding: 0px 20px 10px 20px;
+}
+
+
+.p-section2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.p-section2 .section21{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-section2 .section22{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.p-section2 .section21 .mini-card1,.p-section2 .section21 .mini-card2,.p-section2 .section21 .mini-card3{
+    padding: 10px 10px 10px 10px;
+    /* border:1px solid black; */
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p-section2 .section22 .mini-card4,.p-section2 .section22 .mini-card5,.p-section2 .section22 .mini-card6{
+    padding: 10px 10px 10px 10px;
+    /* border:1px solid black; */
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.mini-card1 .mlogo{
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.mini-card1 .mhead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(14, 23, 38);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: normal;
+   margin-top: 11px;
+   padding-left: 6px;
+   padding-bottom: 3px;
+}
+
+.mini-card1 .mhead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(23, 37, 61);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.48px;
+   margin-top: 10px;
+       padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.mini-card1 .mlink a{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(0, 66, 117);
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: normal;
+  
+}
+
+.mini-card1 .mlink{
+     margin-top: 20px;
+     padding-bottom: 7px;
+     padding-left:4px
+}
+
+.mini-card1 .m-mhead2 {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    color: rgb(23, 37, 61);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-right: 6px;
+}
+
+/* 
+mini2 */
+
+.mini-card2 .mlogo{
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.mini-card2 .mhead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(14, 23, 38);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: normal;
+   margin-top: 11px;
+   padding-left: 6px;
+   padding-bottom: 3px;
+}
+
+.mini-card2 .mhead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(23, 37, 61);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.48px;
+   margin-top: 10px;
+       padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.mini-card2 .mlink a{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(0, 66, 117);
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: normal;
+  
+}
+
+.mini-card2 .mlink{
+     margin-top: 20px;
+     padding-bottom: 7px;
+     padding-left:4px
+}
+
+/* mini3 */
+.mini-card3 .mlogo{
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.mini-card3 .mhead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(14, 23, 38);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: normal;
+   margin-top: 11px;
+   padding-left: 6px;
+   padding-bottom: 3px;
+}
+
+.mini-card3 .mhead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(23, 37, 61);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.48px;
+   margin-top: 10px;
+       padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.mini-card3 .mlink a{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(0, 66, 117);
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: normal;
+  
+}
+
+.mini-card3 .mlink{
+     margin-top: 20px;
+     padding-bottom: 7px;
+     padding-left:4px;
+     height: 100%;
+     display: flex;
+     align-items: end;
+}
+
+
+
+.mini-card4 .mlogo{
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.mini-card4 .mhead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(14, 23, 38);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: normal;
+   margin-top: 11px;
+   padding-left: 6px;
+   padding-bottom: 3px;
+}
+
+.mini-card4 .mhead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(23, 37, 61);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.48px;
+   margin-top: 10px;
+       padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.mini-card4 .mlink a{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(0, 66, 117);
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: normal;
+  
+}
+
+.mini-card4 .mlink{
+     margin-top: 20px;
+     padding-bottom: 7px;
+     padding-left:4px
+}
+
+.mini-card5 .mlogo{
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.mini-card5 .mhead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(14, 23, 38);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: normal;
+   margin-top: 11px;
+   padding-left: 6px;
+   padding-bottom: 3px;
+}
+
+.mini-card5 .mhead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(23, 37, 61);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.48px;
+   margin-top: 10px;
+       padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.mini-card5 .mlink a{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(0, 66, 117);
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: normal;
+  
+}
+
+.mini-card5 .mlink{
+     margin-top: 20px;
+     padding-bottom: 7px;
+     padding-left:4px;
+     display: flex;
+    align-items: end;
+    height: 100%;
+}
+
+
+.mini-card6 .mlogo{
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.mini-card6 .mhead1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(14, 23, 38);
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: normal;
+   margin-top: 11px;
+   padding-left: 6px;
+   padding-bottom: 3px;
+}
+
+.mini-card6 .mhead2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(23, 37, 61);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: -0.48px;
+   margin-top: 10px;
+       padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+
+.mini-card6 .mlink a{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   color: rgb(0, 66, 117);
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: normal;
+  
+}
+
+.mini-card6 .mlink{
+     margin-top: 20px;
+     padding-bottom: 7px;
+     padding-left:4px;
+     height: 100%;
+     display: flex;
+     align-items: end;
+}
+.sol-but1{
+    display: flex;
+    padding: 10px 0 0px 20px;
+    gap: 7px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.main-pand{
+    width: 100%;
+    background-color: rgb(244, 250, 253);
+}
+
+.sol-sec1-extra .chevron-up{
+display: none;
+}
+
+
+.gart{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Mobile-1UpCard-Gartner-BG-360x722?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=360&amp;hei=722&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 85px 20px 58px 20px;
+}
+
+.gart .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: white;
+    padding: 8px 8px 17px 8px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.gart .h1{
+    margin-top: 45px;
+    color: rgb(14, 23, 38);
+     font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 32px;
+     letter-spacing: -0.36px;
+     padding-right: 3px;
+     margin-left: 5px;
+}
+
+.gart .h2{
+    margin-top: 12px;
+    color: rgb(23, 37, 61);
+     font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: -0.48px;
+     padding-right: 2px;
+     margin-left: 5px;
+}
+
+
+.gart .gbut{
+    padding: 10px 0 11px 0;
+    background-color: rgb(0, 120, 212);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    margin-top: 27px;
+}
+.gart-content{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.gart-image{
+    width: 100%;
+     
+}
+.gart-image img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.resources{
+    width: 100%;
+}
+
+.resources-1{
+    width: 100%;
+    background-color:linear-gradient(180deg, rgba(244, 250, 253, 0) 0%, #f4fafd 100%);
+}
+
+.res-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    
+}
+
+.res-heading2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.res-heading .head1{
+     font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     font-size: 12px;
+     font-weight: 600;
+     line-height: 16px;
+     letter-spacing: 0.96px;
+     color: rgb(23, 37, 61);
+     align-self: center;
+
+}
+
+.res-heading2 .head1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: rgb(23, 37, 61);
+  align-self: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.res-heading .head2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size:32px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: 40px;
+    color: rgb(23, 37, 61);
+    align-self: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.block-sec{
+    display: flex;
+    overflow-x: auto;
+    margin-left: 20px;
+    /* padding-right: 20px; */
+    margin-top: 20px;
+    margin-right: 20px;
+    scrollbar-width: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    margin-bottom: 36px;
+
+
+
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+.block-sec .s1,.block-sec .s2,.block-sec .s3,.block-sec .s4,.block-sec .s5,.block-sec .s6{
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+padding: 10px 100px 10px 20px;
+white-space: nowrap;
+font-size: 16px;
+font-weight: 600;
+font-family:  "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+line-height: 24px;
+letter-spacing:normal;
+color: rgb(14, 23, 38);
+}
+
+.block-sec .s1{
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+padding: 10px 85px 10px 20px;
+white-space: nowrap;
+border-bottom: #004275 4px solid;
+border-bottom-left-radius: 6px;
+border-top-left-radius: 6px;
+color: rgb(14, 23, 38);
+font-size: 16px;
+font-weight: 600;
+font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+letter-spacing: normal;
+line-height:24px;
+
+}
+
+.lr{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.lr .rb{
+    border: 2px solid #004275;
+    border-radius: 50%;
+}
+
+
+.lr .lb{
+    border: 2px solid #cbe8ff;
+    border-radius: 50%;
+}
+
+.resources-2{
+    width: 100%;
+    background: linear-gradient(to bottom, white 0%, white 60%, transparent 70%),
+    linear-gradient(to right, #b9e2fa 0%, #b3daf0 30%, rgb(162, 223, 162) 100%);
+    padding: 20px 12px 43px 12px;
+}
+
+.res-heading2 .view-sol{
+    align-self: center;
+    margin-right: 15px;
+}
+
+.res-img{
+    width: 100%;
+    padding: 20px;
+    backdrop-filter:blur(20px);
+    /* border: 1px solid #d1e9f9; */
+    border-radius: 20px;
+    margin-top: 13px;
+}
+
+.res-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.resources-1 .sr{
+    display: none;
+}
+
+.globe{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-full-screen-banner-azure-regions-bg-1600x372?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=3200&amp;hei=744&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.globe-text{
+    padding: 41px 27px 5px 27px;
+}
+
+.globe-content{
+    padding: 102px 16px 58px 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.globe .text1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+    color: rgb(244, 250, 253);
+    text-align: center;
+}
+
+.globe .text2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing:-0.54px;
+    color: rgb(220, 238, 248);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.glo-but{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(179, 218, 240);
+    border: none;
+    padding: 15px 0 15px 0;
+    border-radius: 7px;
+    margin-bottom: 70px;
+}
+
+
+
+
+.globe img{
+    width: 100%;
+}
+
+.cus-sto{
+    width: 100%;
+}
+
+
+
+.sto .head1{
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size:12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.96px;
+
+}
+
+.sto .head2{
+    color: rgb(23, 37 , 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: 40px;
+}
+
+.sto .container{
+    width: 100%;
+}
+
+.sto-container1{
+    width: 100%;
+}
+
+@media screen and (min-width:480px){
+    .section3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.section3 .ai-but2 {
+    width: 295px;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #8dc8e8;
+    background-color: rgb(1, 61, 107);
+    color: rgb(244, 250, 253);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+}
+
 
 @media screen and (min-width:540px){
 .wrapper1 .buttons{
@@ -341,11 +1689,135 @@ nav.featured-380{
     padding-right: 66px ;
 }
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    /* background-color: #8dc8e8; */
+}
 
+.featured-news .heading2 {
+    padding: 0px 60px 20px 60px;
+    color: rgb(23, 37, 61);
+    letter-spacing: -0.8px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.featured-news .heading1 {
+    padding: 105px 0px 15px 60px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing: -0.48px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.solutions {
+    width: 100%;
+    background-color: rgb(244, 250, 253);
+    padding: 100px 60px 10px 60px;
+}
+
+.sol-sec1, .sol-sec2, .sol-sec3, .sol-sec4, .sol-sec5 {
+    display: flex
+;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgb(14, 23, 38);
+    color: rgb(14, 23, 38);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.pands {
+    width: 100%;
+    padding-top: 95px;
+    background-color: rgb(244, 250, 253);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.p-section1 .pcon .pbutton {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    background-color: rgb(0, 120, 212);
+    width: 155px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.gart .h2 {
+    margin-top: 12px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    padding-right: 22px;
+    margin-left: 3px;
+}
+
+.gart{
+    padding: 85px 65px 20px 65px;
+}
+
+.gart .gbut{
+    width: 120px;
+}
+
+.resources-1{
+    padding: 0 50px 0 50px;
+}
+
+.resources-2{
+    padding: 0 60px 38px 60px;
+}
+
+.block-sec{
+    margin-right: 0px;
+}
+
+.glo-but{
+    width: 150px;
+    align-self: center;
+}
+
+.globe-text{
+    padding: 41px 57px 5px 57px;
+}
 }
 
 
 @media  screen and (min-width:860px) {
+
+
+    .resources-1 .sr{
+        display: block;
+    }
+
+    .sol-sec1-extra .sol-sec-link {
+        display: block;    
+        /* margin-top: 20px; */
+    }
 
     .main2{
         display: block;
@@ -365,7 +1837,7 @@ nav.featured-380{
     width: 100%;
      border: 1px black solid;
      padding-top: 10px;
-     padding-bottom: 10px;
+     padding-bottom: 13px;
      padding-left: 35px;
      display: flex;
      justify-content: space-between;
@@ -510,7 +1982,7 @@ nav.featured-380{
 
 .banner2 {
     background-image:url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Mobile-HeroSlim-Hero-BGImage-360x203?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=720&amp;hei=405&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
-    height: 665px;
+    height: 627px;
     align-items: center;
     width: 100%;
     background-size:cover;
@@ -659,7 +2131,8 @@ nav.featured-860{
     justify-content: space-around;
     padding-left: 50px;
     padding-right: 50px;
-    gap: 80px;
+    gap: 35px;
+    border: 1px solid black;
     }
 
 
@@ -667,23 +2140,408 @@ nav.featured-860 .left-sec{
     display: flex;
     overflow-x: auto;
     scrollbar-width: none;
+    gap: 55px;
+    padding: 15px 10px 0px 10px;
 }
 
 
 .flink1, .flink2, .flink3, .flink4, .flink5{
-    padding: 20px 27px;
+    /* padding: 19px 27px 20px 10px; */
     white-space: nowrap;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 14px;
+    letter-spacing: -0.48px;
+    border-radius: 2px
+
 }
+
+/* .flink1 span, .flink2 span, .flink3 span, .flink4 span, .flink5 span{
+    
+
+} */
+
+.flink1{
+    border-bottom: 4px solid rgb(0, 66, 117);
+}
+
+
+/* .flink1 span, .flink2 span, .flink3 span, .flink4 span, .flink5 span{
+    padding: 19px 27px 20px 10px;
+    white-space: nowrap;
+    color: #0067b8;
+    font-family: "Segoe UI Variable Text","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+} */
 .fbutton{
     white-space: nowrap;
-    padding-left:  15px;
-    padding-right: 15px;
-    margin-top: 10px;
+    padding-left:  17px;
+    padding-right: 17px;
+    margin-top: 7px;
     height: 40px;
+    background-color: rgb(0, 120, 212);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: "Segoe UI Variable Text","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    padding-top: 10px;
+    padding-bottom: 33px;
+    margin-right: 8px;
+
+}
+
+.section3 .ai-but2{
+    width: 295px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #8dc8e8;
+    background-color:rgb(1, 61, 107) ;
+    color: rgb(244, 250, 253);
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 20px;
+    font-family:"Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 0px 40px;
+    /* padding-left: 35px;
+    padding-right: 40px; */
+}
+
+.ai .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.section23 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+}
+
+    .cards {
+        display: flex
+;
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 25px;
+        /* background-color: #8dc8e8; */
+    }
+
+        .featured-news .heading2 {
+        padding: 0px 60px 20px 60px;
+        color: rgb(23, 37, 61);
+        letter-spacing: -0.8px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+
+    .cards .des {
+    margin-top: 15px;
+    letter-spacing: -0.48px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    line-height: 24px;
+    padding: 0 8px;
+    margin-right: 35px;
+    height: 100%;
+    margin-left: 5px;
 }
 
 
+
+
+.cards .card1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+.cards .card2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cards .card3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cards .title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    padding: 0 8px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+.button-text {
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.sol-chev-right{
+    display: none;
+}
+
+.sol-but{
+    display: flex;
+    padding: 10px 0 0px 0px;
+    gap: 7px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+    .solutions {
+        width: 100%;
+        background-color: rgb(244, 250, 253);
+        padding: 100px 60px 10px 53px;
+    }
+
+         .sol-sections {
+        padding: 0px 20px 0 44px;
+        max-width: 260px;
+    }
+
+
+    .sol-but .button2, .sol-but .button3, .sol-but .button4, .sol-but .button5 {
+    padding: 8px 40px 9px 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 66, 117);
+    background-color: rgba(0, 85, 151, 0.1);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.solutions .heading2 {
+    padding-left: 5px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing: -1px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 12px;
+    padding-bottom: 15px;
+}
+
+    .sol-sec1-extra a {
+        display: none;
+    }
+
+
+    .sol-sec-content{
+                font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+                color: rgb(23, 37, 61);
+                letter-spacing: -0.48px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                display: block;
+    }
+
+
+.sol-sec-content {
+    display: none;
+}
+
+.p-section2 .section21 {
+    display: flex
+;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.p-section2 .section22 {
+    display: flex
+;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.gart .container{
+    flex-direction: row-reverse;
+    padding: 8px 8px 8px 8px;
+}
+
+    .gart {
+        padding: 144px 65px 95px 55px;
+    }
+
+    .gart-content{
+        padding: 60px 5px 0 7px;
+    }
+
+    .gart-image img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .gart .h2{
+        padding-bottom: 70px;
+        padding-right: 38px;
+        margin-top: 0px;
+    }
+    .gart .h1{
+        padding-bottom: 15px;
+        padding-right: 54px;
+        margin-top: 56px;
+        margin-left: 2px;
+    }
+
+    .gart .gbut{
+        margin-bottom: 18px;
+        width: 130px;
+    }
+
+    .resources-1 .lr{
+        display: none;
+    }
+    
+    .resources-1 .sr{
+    border: 2px solid #004275;
+    border-radius: 50%;
+    height: fit-content;
+    margin-top: 30px;
+    position: absolute;
+    right: 0px;
+  
+}
+
+.resources-1 .slide-r{
+    display: flex;
+    position: relative;
+
+}
+
+
+.block-sec .s1,.block-sec .s2,.block-sec .s3,.block-sec .s4,.block-sec .s5,.block-sec .s6{
+padding: 15px 100px 20px 20px;
+}
+
+.block-sec .s1{
+padding: 15px 100px 20px 20px;
+}
+
+.resources-2{
+    padding: 0 185px 80px 185px;
+}
+.res-heading2 .head1{
+    white-space: nowrap;
+    padding-top: 0px;
+}
+
+.resource1{
+    padding: 0 35px 0 50px;
+}
+
+.block-sec{
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+.res-heading{
+    padding-top: 83px;
+}
+
+
+.res-heading .head2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: 48px;
+    color: rgb(23, 37, 61);
+    padding-bottom: 10px;
+}
+
+.res-img{
+    margin-top: 27px;
+}
+
+.res-heading2{
+    padding-top: 2px;
+}
+
+.globe-content{
+    padding: 135px 16px 58px 16px;
+}
+
+.globe .text1{
+    font-family: "segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+.globe-text{
+    padding: 0px 57px 5px 57px;
+}
+
+}
+
+
 
 
 @media screen and (min-width:920px) {
@@ -716,10 +2574,35 @@ nav.featured-860 .left-sec{
         width: 218px;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     }
+
+       /* .card3 .button-text{
+    padding-top: 120px;
+}
+
+.card2 .button-text{
+    padding-top: 122px;
+}
+
+.card1 .button-text{
+    padding-top: 75px;
+} */
+}
+
+
+
+
+@media screen and (min-width:1021px){
+        .section3 {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
 }
 
 
 @media screen and (min-width:1184px){
+
+
 
     header.header-tab{
         display: none;
@@ -740,8 +2623,6 @@ nav.featured-860 .left-sec{
         display: flex;
         justify-content: space-evenly;
         margin-top: 13px;
-        
-
     }
 
       header.header-ipad .sub-section{
@@ -899,7 +2780,225 @@ left: 3px;
     .link9{
         display: none;
     }
-    
+
+
+        nav.featured-860 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 79px;
+        border: 1px solid black;
+    }
+
+
+        .sol-sections {
+        padding: 0px 20px 0 44px;
+        max-width: 630px;
+        overflow-y: auto;
+        height: 585px;
+        margin-top: 30px;
+    }
+
+        .sol-sec1, .sol-sec2, .sol-sec3, .sol-sec4, .sol-sec5 {
+        display: flex
+;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
+        padding: 30px 0 30px 0;
+        border-bottom: none;
+        color: rgb(14, 23, 38);
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        border-bottom: 1px solid rgb(14, 23, 38);
+    }
+
+    .sol-sec1{
+        border: none;
+    }
+
+
+    .sol-sec1-extra{
+        border-bottom: 1px solid rgb(14, 23, 38);
+        /* border-left: 3px solid #073067; */
+        padding-bottom: 30px;
+        /* margin-top: 30px; */
+        
+    }
+
+
+    .sol-sec1-main{
+       width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+         .lineb {
+        top: 25px;
+        width: 15px;
+        background-color: #002948;
+        height: 270px;
+        position: relative;
+        right: 33px;
+    }
+
+
+        .sol-but .button1 {
+        padding: 8px 25px 8px 25px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(0, 85, 151);
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: normal;
+        color: rgb(255, 255, 255);
+    }
+
+        .sol-but .button2, .sol-but .button3, .sol-but .button4, .sol-but .button5 {
+        padding: 8px 25px 9px 25px;
+        border-radius: 20px;
+        border: none;
+        color: rgb(0, 66, 117);
+        background-color: rgba(0, 85, 151, 0.1);
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: normal;
+    }
+    .sol-but{
+    display: flex;
+    padding: 10px 0 0px 10px;
+    gap: 7px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.sol-but .button1{
+    padding: 8px 25px 8px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 85, 151);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+
+}
+
+.sol-sec1-extra a{
+    color: rgb(0, 66, 117);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    margin-top: 20px;
+}
+
+
+.sol-sec1-extra .sol-sec-link{
+    margin-top: 20px;
+}
+
+
+ .sol-right{
+    width: 100%;
+}
+ 
+.solutions .sol{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+
+.sol-right-img{
+    margin-top: 30px;
+    justify-self: center;
+    margin-left: 70px;
+    position: relative;
+    width: 100%;
+}
+
+        .sol-right-img img {
+        max-width: 1000px;
+        border-radius: 20px;
+        width: 100%;
+        max-height: 500px;
+    }
+
+       .play {
+        /* width: 50px; */
+        /* height: 41px; */
+        border-radius: 7px;
+        background-color: #0078d4;
+        text-align: center;
+        width: 47px;
+        padding: 14px 0px 11px 0px;
+        position: absolute;
+        top: 45%;
+        left: 47%;
+        /* top: 70px;
+        left: 70px; */
+        
+    }
+
+    .play img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .sol-right  {
+        width: 100%;
+        /* position: relative; */
+        display: block;
+        margin-right: 40px;
+    }
+
+    .sol-sec-content {
+    display: block;
+}
+
+    .sol-sec1-extra a {
+        display: block;
+        color: rgb(0, 66, 117);
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        margin-top: 20px;
+    }
+
+    .sol-sec1-extra .chevron-up{
+display: block;
+}
+
+.sol-sec1-extra .chevron-down{
+    display: none;
+}
+
+.block-sec .s6 {
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.block-sec{
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.res-img{
+    max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+}
 }
 
 
@@ -919,8 +3018,25 @@ left: 3px;
     .link9{
         display: none;
     }
- 
+
+
 }
+
+@media screen and (min-width:1380px){
+    
+    .block-sec{
+        -webkit-mask-image:none;
+        mask-image: none;
+    }
+
+    .resources-1 .sr{
+        display: none;
+    }
+}
+
+
+
+
 
 @media screen and (min-width:1420px){
 
@@ -1129,11 +3245,420 @@ left: 3px;
         width: 210px;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     }
+
+      .main3 {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        max-width: 1420px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     
 }
 
 @media screen and (min-width:1440px){
-       
+    .section1 .sec1 .title1 {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.32px;
+}
+
+.featured-news .heading2 {
+        padding: 0px 60px 20px 60px;
+        color: rgb(23, 37, 61);
+        letter-spacing: -1.2px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 56px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+        .cards {
+        display: flex
+;
+        flex-direction: row;
+        gap: 10px;
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 25px;
+        /* background-color: #8dc8e8; */
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .featured-news .heading1 {
+        padding: 97px 0px 8px 60px;
+        color: rgb(23, 37, 61);
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        letter-spacing: 1.04px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .featured-news .heading2 {
+        padding: 0px 60px 20px 60px;
+        color: rgb(23, 37, 61);
+        letter-spacing: -1.2px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 56px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        /* .card1 .button-text {
+        margin-top: 71px;
+    }
+
+        .card2 .button-text {
+        margin-top: 9px;
+    } */
+
+
+    .solutions{
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    
+}
+
+.pands .p-sections {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+}
+
+.pands .p-sections .p-section1 {
+    width: 400px;
+    padding: 20px 19px 0px 19px;
+}
+
+.pands .p-sections .p-section1 .card1 {
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-mobile-card-grid-product-and-services-promo-card-featured-328x266?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=548&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    height: 605px;
+    margin-top: 10px;
+}
+
+.pands .heading2 {
+    padding-left: 20px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing: -1.2px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    margin-top: 8px;
+    padding-bottom: 20px;
+}
+
+.p-section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 33px;
+}
+
+.pands .p-sections .p-section2 {
+    width: 100%;
+    padding: 0px 0px 10px 15px;
+}
+
+    .pands .p-sections .p-section1 {
+        width: 430px;
+        padding: 20px 0px 0px 19px;
+    }
+
+    .mini-card1 {
+    padding: 20px 20px 20px 20px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+
+.mini-card1 .mlogo {
+    border: 1px solid rgb(230, 242, 251);
+    display: inline-block;
+    padding: 10px 11px 8px 11px;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+.mini-card1 .mhead1 {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    color: rgb(14, 23, 38);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    margin-right: 41px;
+}
+
+.mini-card1 .mhead2 {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    color: rgb(23, 37, 61);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin-top: 14px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    margin-right: 11px;
+}
+
+.mini-card1 .mlink {
+    margin-top: 45px;
+    padding-bottom: 15px;
+    padding-left: 13px;
+}
+
+.sol-but1 {
+    display: flex;
+    padding: 28px 0 0px 20px;
+    gap: 7px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+    .pands {
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.mini-card2 .mlink {
+    margin-top: 80px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+}
+
+.mini-card3 .mlink {
+    margin-top: 76px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+}
+
+.mini-card5 .mlink {
+    margin-top: 86px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+}
+
+.mini-card6 .mlink {
+    margin-top: 47px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+}
+
+.mini-card4 .mlink {
+    margin-top: 45px;
+    padding-bottom: 7px;
+    padding-left: 4px;
+}
+
+
+.sol-but1 .button1 {
+    padding: 8px 24px 8px 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 85, 151);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+}
+
+.sol-but1 .button2, .sol-but1 .button3, .sol-but1 .button4, .sol-but1 .button5 {
+    padding: 7px 23px 9px 23px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 66, 117);
+    background-color: rgba(0, 85, 151, 0.1);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+
+.pands .heading1 {
+    padding-left: 21px;
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    letter-spacing: 0.96px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+    .p-section2 .section21 {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    .mini-card2 .mhead1 {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    color: rgb(14, 23, 38);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-top: 20px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+}
+
+.mini-card3 .mhead1 {
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    color: rgb(14, 23, 38);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-top: 20px;
+    padding-left: 6px;
+    padding-bottom: 3px;
+}
+
+.gart .h1 {
+    margin-top: 80px;
+    color: rgb(14, 23, 38);
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.48px;
+    padding-right: 35px;
+    margin-left: 5px;
+}
+
+.gart .gbut{
+    margin-top: 50px;
+}
+
+    .gart {
+        padding: 144px 80px 95px 73px;
+    }
+
+        .resources-1 .sr{
+            display: none;
+        }
+
+
+        .res-heading .head2{
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 56px;
+            letter-spacing:-1.2px;
+        }
+
+        .resources-2{
+            padding: 0 280px 80px 280px;
+        }
+
+
+        .resources-1 .slide-r{
+            max-width: 1440px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+.block-sec{
+        margin-left: 60px;
+}
+
+.globe .text1{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: -1.2px;
+}
+
+.globe .text2{
+    font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: -0.6px;
+}
+
+.globe-content{
+    padding: 107px 16px 58px 16px;
+}
+
+    .globe-text {
+        padding: 41px 57px 5px 57px;
+        position: relative;
+        bottom: 9px;
+    }
+
+}
+
+@media screen and (min-width:1496px){
+        .gart {
+        padding: 144px 105px 95px 97px;
+    }
+
+    
+    
+    .gart .h1 {
+        padding-right: 50px;
+    }
+
+        .gart .h1 {
+        padding-bottom: 15px;
+        padding-right: 60px;
+        
+    }
+
+        .gart .h2 {
+        padding-bottom: 70px;
+        padding-right: 60px;
+        margin-top: 0px;
+    }
+
+        .gart .container {
+        padding: 8px 8px 8px 8px;
+    }
+
+        .gart .gbut {
+        margin-bottom: 25px;
+    }
 }
 
 @media screen and (min-width:1880px){
@@ -1313,8 +3838,7 @@ left: 3px;
     }
 
           .wrapper2 .buttons {
-        display: flex
-;
+        display: flex;
         flex-direction: row;
         justify-content: flex-start;
         gap: 8px;
@@ -1364,8 +3888,7 @@ left: 3px;
     }
 
         .link9 {
-        display: flex
-;
+        display: flex;
         position: relative;
         left: 11px;
         margin-top: 8px;
