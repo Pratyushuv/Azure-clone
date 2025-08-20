@@ -572,10 +572,10 @@ nav.featured-380{
 
 .button-text1{
     display: flex;
-    gap: 10px;
+    gap: 7px;
     margin-top: 25px;
     padding-left: 20px;
-    padding-bottom: 7px;
+    padding-bottom: 56px;
 }
 
 .button-text1 .chev-right{
@@ -601,6 +601,7 @@ nav.featured-380{
     padding-bottom: 7px;
 }
 
+
 .button-text2 .chev-right{
     background-color: rgb(0, 120, 212);
     padding: 9px 10px 6px 10px;
@@ -608,6 +609,106 @@ nav.featured-380{
 }
 
 .button-text2 span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+.button-text3{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+}
+
+
+
+.button-text3 .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text3 span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+.button-text4{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    
+    padding-bottom: 7px;
+}
+
+
+
+.button-text4 .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text4 span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+.button-text5{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    
+    padding-bottom: 7px;
+}
+
+
+
+.button-text5 .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text5 span{
+    align-self: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 66, 117);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+.button-text6{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    
+    padding-bottom: 7px;
+}
+
+
+
+.button-text6 .chev-right{
+    background-color: rgb(0, 120, 212);
+    padding: 9px 10px 6px 10px;
+    border-radius: 8px;
+}
+
+.button-text6 span{
     align-self: center;
     font-size: 14px;
     font-weight: 600;
@@ -818,7 +919,7 @@ nav.featured-380{
     padding: 20px 19px 0px 19px;    
 }
 
-.pands .p-sections .p-section1 .card1{
+/* .pands .p-sections .p-section1 .card1{
     background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-mobile-card-grid-product-and-services-promo-card-featured-328x266?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=548&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
     background-repeat: no-repeat;
     display: flex;
@@ -833,6 +934,11 @@ nav.featured-380{
     height: 420px;
     margin-top: 10px;
     
+} */
+
+.pands .p-sections .p-section1 .card1{
+    width: 100%;
+    position: relative;
 }
 
 .pands .p-sections .p-section1 .card1 .pcon{
@@ -842,13 +948,28 @@ nav.featured-380{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    position: absolute;
+    top: 0;
    
+   
+}
+
+
+.card1 picture, .card1 picture img{
+    display: block;
+    width: 100%;
+    /* height: 410px; */
+    height: 100%;
+    border-radius: 30px;
+    max-height: 605px;
+    min-height: 410px;
 }
 
 .p-sections .fimage1{
     width: 100%;
     padding: 20px 20px 20px 20px;
 }
+
 
 
 
@@ -925,7 +1046,7 @@ nav.featured-380{
 }
 
 .p-section2 .section21 .mini-card1,.p-section2 .section21 .mini-card2,.p-section2 .section21 .mini-card3{
-    padding: 10px 10px 10px 10px;
+    padding: 16px 30px 17px 17px;
     /* border:1px solid black; */
     border-radius: 25px;
     background-color: #ffffff;
@@ -933,11 +1054,12 @@ nav.featured-380{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 }
 
 .p-section2 .section22 .mini-card4,.p-section2 .section22 .mini-card5,.p-section2 .section22 .mini-card6{
-    padding: 10px 10px 10px 10px;
+    padding: 16px 30px 17px 17px;
     /* border:1px solid black; */
     border-radius: 15px;
     background-color: #ffffff;
@@ -945,8 +1067,11 @@ nav.featured-380{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 }
+
+
 
 
 .mini-card1 .mlogo{
@@ -956,6 +1081,7 @@ nav.featured-380{
     border-radius: 10px;
     margin-left: 7px;
     margin-top: 7px;
+    width: fit-content;
 }
 
 .mini-card1 .mhead1{
@@ -999,7 +1125,7 @@ nav.featured-380{
      padding-left:4px
 }
 
-.mini-card1 .m-mhead2 {
+.mini-card5 .m-mhead2 {
     font-family: "Segoe UI Variable Display", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     color: rgb(23, 37, 61);
     font-size: 16px;
@@ -1022,6 +1148,7 @@ mini2 */
     border-radius: 10px;
     margin-left: 7px;
     margin-top: 7px;
+    width: fit-content;
 }
 
 .mini-card2 .mhead1{
@@ -1073,6 +1200,7 @@ mini2 */
     border-radius: 10px;
     margin-left: 7px;
     margin-top: 7px;
+    width: fit-content;
 }
 
 .mini-card3 .mhead1{
@@ -1114,7 +1242,6 @@ mini2 */
      margin-top: 20px;
      padding-bottom: 7px;
      padding-left:4px;
-     height: 100%;
      display: flex;
      align-items: end;
 }
@@ -1128,6 +1255,7 @@ mini2 */
     border-radius: 10px;
     margin-left: 7px;
     margin-top: 7px;
+    width: fit-content;
 }
 
 .mini-card4 .mhead1{
@@ -1178,6 +1306,7 @@ mini2 */
     border-radius: 10px;
     margin-left: 7px;
     margin-top: 7px;
+    width: fit-content;
 }
 
 .mini-card5 .mhead1{
@@ -1221,7 +1350,7 @@ mini2 */
      padding-left:4px;
      display: flex;
     align-items: end;
-    height: 100%;
+   
 }
 
 
@@ -1232,6 +1361,7 @@ mini2 */
     border-radius: 10px;
     margin-left: 7px;
     margin-top: 7px;
+    width: fit-content;
 }
 
 .mini-card6 .mhead1{
@@ -1273,7 +1403,6 @@ mini2 */
      margin-top: 20px;
      padding-bottom: 7px;
      padding-left:4px;
-     height: 100%;
      display: flex;
      align-items: end;
 }
@@ -1490,6 +1619,8 @@ line-height:24px;
 }
 
 
+
+
 .lr .rb{
     border: 2px solid #004275;
     border-radius: 50%;
@@ -1595,36 +1726,546 @@ line-height:24px;
 
 .cus-sto{
     width: 100%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Mobile-CaseStudy-CustomerStories-BG-360x1036?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=720&amp;hei=2073&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 21px 15px 21px;
+}
+
+.sto-bot-part{
+    width: 100%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Mobile-CaseStudy-CustomerStories-BG-360x1036?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=720&amp;hei=2073&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px 10px 10px 10px;
 }
 
 
 
-.sto .head1{
+.cus-sto .head1{
     color: rgb(23, 37, 61);
     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     font-size:12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.96px;
+    margin-top: 33px;
+    
 
 }
 
-.sto .head2{
+.cus-sto .head2{
     color: rgb(23, 37 , 61);
     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     font-size: 32px;
     font-weight: 500;
     letter-spacing: -0.8px;
     line-height: 40px;
+    margin-top: 11px;
+    width: 100%;
 }
 
-.sto .container{
+.cus-sto .container{
     width: 100%;
+   
+    
+    margin-top: 35px;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+}
+
+.cus-sto .headings{
+    width: 100%;
+    /* padding: 10px 20px 10px 20px; */
 }
 
 .sto-container1{
     width: 100%;
+    background-color: white;
+    flex-shrink: 0;
+    padding: 8px 8px 14px 8px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
 }
+.sto-container1 .sto-img{
+    width: 100%;
+}
+.sto-container1 .sto-img img{
+    width: 100%;
+    border-radius: 10px;
+    max-height: 570px;
+}
+
+.sto-container1 .sto-logo{
+    display: inline-block;
+    border: 1px solid rgb(165, 180, 210);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sto-container1 .sto-logo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sto-container1 .sto-des{
+    color: rgb(23, 37, 61);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+
+}
+
+.sto-pro .pro1, .sto-pro .pro2, .sto-pro .pro3, .sto-pro .pro4{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sto-pro .pro-logo{
+    border: 1px solid rgb(228, 240, 248);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.sto-pro .pro-head{
+    color: rgb(14, 23, 38);
+     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.sto-pro .pro-name a{
+    color: rgb(0, 103, 184);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: normal;
+}
+
+.sto-pro .pro-name{
+    align-self: center;
+}
+
+.rstory{
+    width: 100%;
+    background-color: #0078d4;
+    color: rgb(255, 255, 255);
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    padding: 14px 0 14px 0;
+    border: none;
+    border-radius: 6px;
+}
+
+.rsto{
+    width: 100%;
+    padding: 10px 10px 0 10px;
+}
+
+
+
+.lr1{
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.lr1 .rb1{
+    border: 2px solid #00182b;
+    border-radius: 50% ;
+}
+
+
+.lr1 .lb1{
+    border: 2px solid #90a4af;
+    border-radius: 50%;
+}
+
+.main-pro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pro-part1{
+    display: flex;
+    flex-direction: column;
+}
+.pro-part2{
+    display: flex;
+    flex-direction: column;
+}
+
+.co-blocks{
+    display: none;
+}
+
+.main-cus{
+    width: 100%;
+    
+}
+
+.next-step{
+    width: 100%;
+    position: relative;
+    
+}
+
+.next-step picture, .next-step picture img{
+    display: block;
+    width: 100%;
+
+    max-height: 800px;
+  
+
+}
+
+.next-step .next-con{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    padding: 10px 24px 10px 24px;
+    
+}
+
+.next-step .next-con .head1{
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: 40px;
+    color: rgb(14, 23, 38);
+    text-align: center;
+}
+
+.next-con .next-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.next-cards .next-card1{
+    width: 100%;
+    background-color: white;
+    border-radius: 14px;
+    padding: 15px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 25px;
+
+}
+
+.next-card1 .txt1{
+    color: rgb(23, 37, 61);
+      font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.2px;
+}
+
+.next-card1 .txt2{
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    color: rgb(23, 37, 61);
+    margin-right: 5px;
+}
+
+
+
+.next-cards .next-card2{
+    width: 100%;
+    background-color: white;
+    border-radius: 14px;
+    padding: 15px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+.next-card2 .txt1{
+    color: rgb(23, 37, 61);
+      font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.2px;
+}
+
+.next-card2 .txt2{
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    color: rgb(23, 37, 61);
+    margin-right: 5px;
+}
+
+
+.next-cards .next-card3{
+    width: 100%;
+    background-color: white;
+    border-radius: 14px;
+    padding: 15px 15px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+.next-card3 .txt1{
+    color: rgb(23, 37, 61);
+      font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.2px;
+}
+
+.next-card3 .txt2{
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    color: rgb(23, 37, 61);
+    margin-right: 5px;
+}
+
+
+.footer{
+    width: 100%;
+}
+
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(247, 247, 247);
+}
+
+.foot-button{
+    display: flex;
+    gap: 10px;
+    margin:30px 15px 8px 20px;
+    padding: 10px 10px 10px 10px ;
+    background-color: rgb(230, 230, 230);
+    align-self: flex-start;
+    border-radius: 4px;
+}
+
+.foot-text1{
+    color: rgb(0, 0, 0);
+     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     font-size: 15px;
+     font-weight: 600;
+     line-height: 22px;
+     letter-spacing: -0.3px;
+}
+
+.sicons{
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px 10px 40px ;
+}
+
+.foot2{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding:30px 120px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-foot2{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.foot2 a{
+    color: rgb(97, 97, 97);
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: normal;
+}
+
+.foot2 .main-link{
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: normal;
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+
+.foot2 .sec1, .foot2 .sec2, .foot2 .sec3, .foot2 .sec4, .foot2 .sec5, .foot2 .sec6{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.foot2 .sec123, .foot2 .sec456{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.foot3 {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 59px;
+    padding-bottom: 20px;
+}
+
+.foot3 .world svg{
+    width: 20px;
+    height: 20px;
+}
+
+.foot3 .lang{
+    display: flex;
+    gap: 10px;  
+}
+
+
+
+.foot3 .eng a{
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: #616161;
+    text-decoration: none;
+}
+
+.priv-text{
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: #616161;
+}
+
+.t-text {
+    font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: #616161;
+    margin-top: 7px;
+}
+
+.privacy {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    right: 5px;
+}
+
+.foot3 .sec1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.foot3 .e1, .foot3 .e2, .foot3 .e3, .foot3 .e4, .foot3 .e5, .foot3 .e6, .foot3 .e7, .foot3 .e7, .foot3 .e8, .foot3 .e9{
+     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+     font-size: 11px;
+     font-weight: 400;
+     line-height: 25px;
+     letter-spacing: normal;
+     color: #616161;
+} 
+
+.foot3 .sec2 {
+    display: flex;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-start;
+    margin-top: 20px;
+    row-gap: 5px;
+    column-gap: 13px;
+}
+
+.foot4{
+    width: 100%;
+    height: 62px;
+    background-color: rgb(247, 247, 247);
+}
+
+.main-foot1 {
+   width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+@media screen and (min-width:473px){
+   .foot1{
+    flex-direction: row;
+   }
+   .sicons{
+    align-self: center;
+    padding: 0;
+    margin-top: 15px;
+   }
+}
+
+@media screen and (min-width:486px){
+    .pro-part1{
+        flex-direction: row;
+    }
+
+    .sto-container1{
+        padding: 8px 8px 8px 8px;
+    }
+}
+
 
 @media screen and (min-width:480px){
     .section3 {
@@ -1745,8 +2386,8 @@ line-height:24px;
     width: 100%;
     padding-top: 95px;
     background-color: rgb(244, 250, 253);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .p-section1 .pcon .pbutton {
@@ -1804,7 +2445,97 @@ line-height:24px;
 .globe-text{
     padding: 41px 57px 5px 57px;
 }
+
+.cus-sto{
+        padding: 15px 66px 15px 66px;
 }
+
+.sto-bot-part{
+    padding: 15px  66px 15px 66px;
+}
+
+.rstory{
+    width: auto;
+    padding: 14px 15px 15px 15px;
+}
+
+.next-step .next-con{
+    padding: 10px 75px 10px 75px;
+}
+
+.foot1{
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 49px;
+    padding-bottom: 30px;
+}
+
+.sicons{
+    padding: 0 10px 10px 40px;
+    align-self: auto;
+    margin-top: 0;
+    gap: 23px;
+}
+
+.foot-button{
+    margin: 30px 15px 10px 20px;
+    padding: 15px 12px 10px 14px;
+    gap: 7px;
+}
+
+.foot2 .sec123{
+    flex-direction: row;
+}
+.foot2 .sec456{
+    flex-direction: row;
+}
+}
+
+
+
+@media  screen and (min-width:569px){
+.foot1{
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+.sicons{
+    align-self: center;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.foot-button{
+    padding: 15px 13px 10px 14px;
+    margin: 30px 12px 10px 20px;
+}
+}
+
+
+
+@media  screen and (min-width:726px){
+.main-pro{
+    flex-direction: row;
+}
+
+.rsto{
+    padding: 10px 10px 15px 10px ;
+}
+
+.foot3 .sec2 {
+    display: flex
+;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-end;
+    margin-top: 20px;
+    row-gap: 5px;
+    column-gap: 13px;
+}
+}
+
+
 
 
 @media  screen and (min-width:860px) {
@@ -1980,7 +2711,7 @@ line-height:24px;
 
 
 
-.banner2 {
+/* .banner2 {
     background-image:url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Mobile-HeroSlim-Hero-BGImage-360x203?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=720&amp;hei=405&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
     height: 627px;
     align-items: center;
@@ -1991,13 +2722,24 @@ line-height:24px;
       background-color: rgba(28, 92, 161, 0.622);
     background-blend-mode: darken;
 
+} */
+
+
+picture, picture img{
+    display: block;
+    width: 100%;
+    height: 627px;
 }
 
+.banner2{
+    width: 100%;
+    position: relative;
+}
 
 
     .image1-380 {
         padding: 25px;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(100px);
         border: 1px solid #3275a5;
         border-radius: 28px;
         position: relative;
@@ -2034,6 +2776,8 @@ line-height:24px;
     justify-content: center;
     /* margin-left: 18px; */
     gap: 50px;
+    position: absolute;
+    top: 46px;
 }
 
 .wrapper2 .span2 {
@@ -2435,6 +3179,7 @@ nav.featured-860 .left-sec{
     .gart-image img{
         height: 100%;
         object-fit: cover;
+        max-height: 491px;
     }
 
     .gart .h2{
@@ -2539,6 +3284,206 @@ padding: 15px 100px 20px 20px;
     padding: 0px 57px 5px 57px;
 }
 
+
+.sto-container1{
+    flex-direction: row-reverse;
+}
+
+.main-pro{
+    flex-direction: column;
+}
+
+.pro-part1{
+    flex-direction: column;
+}
+
+.sto-container1 .sto-des{
+    max-width: 650px;
+    margin-bottom: 60px;
+    padding: 10px 45px 10px 20px;
+}
+
+.sto-img{
+    height: 100%;
+}
+.sto-img img{
+     height: 100%;
+    
+}
+
+.sto-container1{
+    padding: 8px 8px 11px 8px;
+    border-radius: 20px;
+}
+
+.sto-container1 .sto-logo{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.sto-pro .pro-head{
+    margin-left: 20px;
+}
+
+.main-pro{
+    margin-left: 10px;
+}
+
+.cus-sto .head2{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 48px;
+}
+
+.lr1{
+    display: none;
+}
+
+.co-blocks{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-bottom: 30px;
+}
+
+.co-blocks .block1, .co-blocks .block2, .co-blocks .block3, .co-blocks .block4{
+    width: 100%;
+    border: 1px solid rgb(243, 243, 243);
+    padding: 25px 25px 25px 25px ;
+    background-color: white;
+    text-align: center;
+}
+
+.co-blocks .block1 img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.co-blocks .block4 img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.co-blocks .block1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 5px solid #005597;
+}
+
+.co-blocks .block4{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.co-blocks img{
+    width: 100%;
+    height: 100%;
+    max-width: 125px;
+    max-height: 54px;
+  
+}
+
+
+.cus-sto{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Desktop-CaseStudy-CustomerStories-BG-1600x1053?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=1053&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    padding: 15px 66px 15px 59px;
+}
+
+.sto-bot-part{
+    background-color: #f8fefa;
+    background-image: none;
+    background-position: bottom;
+    padding: 15px 60px 65px 47px;
+}
+
+.button-text3{
+    margin-top: 25px;
+}
+
+.rsto{
+    padding: 10px 10px 10px 20px;
+}
+
+.cus-sto .head2{
+    max-width: 390px;
+}
+
+
+.cus-sto .head1{
+    margin-top: 55px;
+}
+
+.t1{
+    width: 100%;
+}
+
+.t2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.next-cards .next-card1{
+    margin-top: 0px;
+}
+
+.next-con .next-cards{
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.button-text4{
+    margin-top: 30px;
+}
+
+.next-card1 .txt2{
+    margin-right: 40px;
+}
+
+.next-card2 .txt2{
+    margin-right: 40px;
+}
+
+
+.next-cards .next-card1{
+    justify-content: space-around;
+    padding: 22px 15px 15px 25px;
+    border-radius: 25px;
+}
+
+
+.next-cards .next-card2{
+    justify-content: space-around;
+    padding: 22px 15px 15px 25px;
+    border-radius: 25px;
+}
+
+.next-cards .next-card3{
+    justify-content: space-around;
+    padding: 22px 15px 15px 25px;
+    border-radius: 25px;
+}
+
+.next-card1 .txt1{
+    margin-right: 60px;
+}
+
+.next-card2 .txt1{
+    margin-right: 30px;
+}
+
+.next-card3 .txt1{
+    margin-right: 30px;
+}
+
+.next-step .next-con .head1{
+    margin-top: 40px;
+}
+
 }
 
 
@@ -2586,6 +3531,12 @@ padding: 15px 100px 20px 20px;
 .card1 .button-text{
     padding-top: 75px;
 } */
+
+.co-blocks{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 
@@ -2596,6 +3547,72 @@ padding: 15px 100px 20px 20px;
         display: flex;
         flex-direction: row;
         gap: 16px;
+    }
+}
+
+@media screen and (min-width:1045px){
+       .pro-part1{
+        flex-direction: row;
+       }
+
+    
+}
+
+@media screen and (min-width:1365px){
+           .main-pro {
+        flex-direction: row;
+    }
+
+    
+}
+
+
+@media screen and (min-width:1084px){
+        
+.foot2{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot2{
+    padding: 30px 60px 20px 60px;
+}
+
+.foot2 .sec123, .foot2 .sec456{
+    width: 100%;
+}
+
+.foot3 .sec1 {
+    display: flex;
+    gap: 22px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.foot3 .lang {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.privacy {
+    display: flex;
+    gap: 5px;
+    position: relative;
+    right: 5px;
+    top: 7px;
+}
+            .foot3 .sec2 {
+        display: flex;
+        /* gap: 10px; */
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: flex-end;
+        margin-top: 5px;
+        row-gap: 5px;
+        column-gap: 28px;
+        margin-right: 14px;
     }
 }
 
@@ -2789,7 +3806,7 @@ left: 3px;
         padding-left: 0px;
         padding-right: 0px;
         gap: 79px;
-        border: 1px solid black;
+    
     }
 
 
@@ -3032,7 +4049,29 @@ display: block;
     .resources-1 .sr{
         display: none;
     }
+
+    .foot3 {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 59px;
+    padding-bottom: 20px;
 }
+
+.foot3 .sec1 {
+        display: flex
+;
+        gap: 22px;
+        flex-direction: row;
+        margin-top: -5px;
+        margin-left: 30px;
+    }
+}
+
+
 
 
 
@@ -3162,6 +4201,7 @@ display: block;
         padding-bottom: 2px;
     }
     
+    
 
        
 
@@ -3254,6 +4294,7 @@ display: block;
         margin-right: auto;
         margin-left: auto;
     }
+    
 
     
 }
@@ -3346,7 +4387,7 @@ display: block;
     padding: 20px 19px 0px 19px;
 }
 
-.pands .p-sections .p-section1 .card1 {
+/* .pands .p-sections .p-section1 .card1 {
     background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1022443-mobile-card-grid-product-and-services-promo-card-featured-328x266?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=656&amp;hei=548&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
     background-repeat: no-repeat;
     display: flex;
@@ -3360,7 +4401,7 @@ display: block;
     background-position: center;
     height: 605px;
     margin-top: 10px;
-}
+} */
 
 .pands .heading2 {
     padding-left: 20px;
@@ -3389,6 +4430,7 @@ display: block;
     .pands .p-sections .p-section1 {
         width: 430px;
         padding: 20px 0px 0px 19px;
+        align-self: center;
     }
 
     .mini-card1 {
@@ -3437,7 +4479,7 @@ display: block;
 }
 
 .mini-card1 .mlink {
-    margin-top: 45px;
+    margin-top: 30px;
     padding-bottom: 15px;
     padding-left: 13px;
 }
@@ -3470,7 +4512,7 @@ display: block;
 }
 
 .mini-card5 .mlink {
-    margin-top: 86px;
+    margin-top: 65px;
     padding-bottom: 7px;
     padding-left: 4px;
 }
@@ -3482,7 +4524,7 @@ display: block;
 }
 
 .mini-card4 .mlink {
-    margin-top: 45px;
+    margin-top: 30px;
     padding-bottom: 7px;
     padding-left: 4px;
 }
@@ -3627,6 +4669,95 @@ display: block;
         bottom: 9px;
     }
 
+    .cus-sto{
+        padding: 15px 81px 15px 75px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cus-sto .head2{
+        max-width: 570px;
+        font-size: 48px;
+        font-weight: 500;
+        letter-spacing: -1.2px;
+        line-height: 58px;
+    }
+
+    .sto-container1 .sto-des{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -0.24px;
+    }
+
+.main-cus{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Desktop-CaseStudy-CustomerStories-BG-1600x1053?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=1053&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.gart .container{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .wrapper2 .span2 {
+        white-space: nowrap;
+        color: #f4fafd;
+        font-size: 62px;
+        letter-spacing: -1.55px;
+        font-weight: 500;
+        margin-top: 13px;
+        line-height: 72px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        position: relative;
+        right: 30px;
+    }
+
+        .solutions .heading2 {
+        padding-left: 5px;
+        color: rgb(23, 37, 61);
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        letter-spacing: -1.2px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 56px;
+        margin-top: 12px;
+        padding-bottom: 15px;
+    }
+    
+    .next-step .next-con{
+        max-width: 1440px;
+        margin: 0 auto;
+        justify-self: center;
+    }
+
+.foot1{
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foot3{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+
+.foot3 .sec2 {
+    display: flex;
+    gap: 25px;
+}
+
+.foot3 .sec1 {
+    display: flex;
+    gap: 23px;
+}
 }
 
 @media screen and (min-width:1496px){
@@ -3659,12 +4790,40 @@ display: block;
         .gart .gbut {
         margin-bottom: 25px;
     }
+
+    .container2 .wrapper2{
+        left: 0px;
+        margin-top: -11px;
+    }
+
+        header.header-ipad .links2{
+            right: 110px;
+        }
+
+        .wrapper2 .span3{
+            margin-right: 13px;
+        }
+
+            nav.featured-860 .left-sec{
+                margin-right: 210px;
+            }
+
+
+            .lineb{
+                top: 6px;
+            }
+
+    .foot2{
+        gap: 110px;
+        max-width: 1706px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media screen and (min-width:1880px){
     header.header-ipad {
         width: 100%;
-        border: 1px solid black;
         padding: 0px 2px;
         padding-bottom: 2px;
     }
