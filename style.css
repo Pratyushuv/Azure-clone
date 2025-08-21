@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'gart';
-    src: url(https://www.microsoft.com/mwf/_h/v3.54/mwf.app/fonts/mwfmdl2-v3.54.woff);
+    src: url('segoeuithibd.ttf') format('truetype');
 }
 
 *{
@@ -226,7 +226,7 @@ header.header-ipad{
     font-weight: 600;
     margin-top: 13px;
     line-height: 48px;
-    font-family: "Segoe UI Variable Text","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+    font-family: "gart";
 }
 
 .wrapper2 .span3{
@@ -1081,7 +1081,7 @@ nav.featured-380{
 .p-section2 .section21 .mini-card1, .p-section2 .section21 .mini-card2, .p-section2 .section21 .mini-card3 {
     padding: 10px 30px 10px 11px;
     /* border: 1px solid black; */
-    border-radius: 20px;
+    border-radius: 23px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -1089,7 +1089,22 @@ nav.featured-380{
 ;
     flex-direction: column;
     justify-content: space-between;
+
 }
+
+.p-section2 .section21 .mini-card1, .p-section2 .section21 .mini-card2, .p-section2 .section21 .mini-card3 {
+    padding: 10px 20px 10px 11px;
+    /* border: 1px solid black; */
+    border-radius: 23px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+   
 
 .p-section2 .section22 .mini-card4,.p-section2 .section22 .mini-card5,.p-section2 .section22 .mini-card6{
     padding: 16px 30px 17px 17px;
@@ -2812,8 +2827,8 @@ picture, picture img{
     .image1-380 {
         padding: 25px;
         backdrop-filter: blur(200px);
-        border: 1px solid #3275a5;
-        border-radius: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 25px;
         position: relative;
         right: 30px;
         top: -19px;
@@ -2915,6 +2930,7 @@ picture, picture img{
     padding: 0px 24px;
     border: none;
     width: 160px;
+    letter-spacing: -0.3px;
 }
 
 .wrapper2 .buttons .sec-button{
@@ -2928,6 +2944,7 @@ picture, picture img{
      padding: 0px 20px;
      width: 200px;
     font-family: "Segoe UI Variable Text","Segoe UI",segoeui,"Helvetica Neue",helvetica,arial,sans-serif;
+    letter-spacing: -0.3px;
 }
 
 
@@ -4369,11 +4386,11 @@ display: block;
         font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
         position: relative;
         left: 12px;
-        height: 32px;
+        height: 31px;
         width: 57px;
         top: -3px;
     }
-        .links2 .button1 {
+            .links2 .button1 {
         background-color: #0078d4;
         border: none;
         color: white;
@@ -4382,12 +4399,14 @@ display: block;
         font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
         position: relative;
         left: 16px;
-        height: 32px;
-        bottom: 4px;
+        height: 31px;
+        bottom: 3px;
         width: 147px;
         font-size: 13px;
         font-weight: 400;
     }
+
+
 
 
 
@@ -5166,6 +5185,14 @@ left: 19px;
 position: relative;
 left: 72px;
 }
+
+    .next-step .next-con .head1 {
+        margin-top: 40px;
+        font-size: 48px;
+        font-weight: 500;
+        letter-spacing: -1.2px;
+        line-height: 56px;
+    }
 }
 @media screen and (min-width:1496px){
         .gart {
@@ -5227,12 +5254,12 @@ left: 72px;
         margin-right: auto;
         margin-left: auto;
     }
-        .sol-right {
+           .sol-right {
         width: 100%;
         /* position: relative; */
         display: block;
         margin-right: 40px;
-        margin-left: 80px;
+        margin-left: 59px;
     }
 
         header.header-ipad .sub-section {
@@ -5246,37 +5273,81 @@ left: 72px;
         top: 1px;
     }
 
+        .solutions .heading2 {
+        padding-bottom: 19px;
+    }
+
         header.header-ipad .links {
-        display: flex
-;
+        display: flex;
         gap: 20px;
         position: relative;
         left: 16px;
-        top: 3px;
+        top: 2px;
+    }
+
+
+        .sol-but .button1 {
+        padding: 8px 23px 8px 23px;
+    }
+
+      .sol-but .button2 {
+        padding: 8px 23px 8px 23px;
+    }
+
+      .sol-but .button3 {
+        padding: 8px 23px 8px 23px;
+    }
+
+      .sol-but .button4 {
+        padding: 8px 23px 8px 23px;
+    }
+
+      .sol-but .button5{
+        padding: 8px 23px 8px 23px;
+    }
+
+        .pands .heading1 {
+        padding-left: 16px;
     }
 
         .pricing {
         display: flex
 ;
         position: relative;
-        left: -6px;
+        left: -3px;
         margin-top: 5px;
+    }
+
+
+        .pands .heading2 {
+        padding-left: 14px;
     }
 
     .partners {
-        display: flex
-;
+        display: flex;
         position: relative;
-        left: -7px;
+        left: 0px;
         margin-top: 5px;
     }
 
+
+        .sol-but1 {
+        padding: 28px 0 0px 14px;
+    }
         .Resources {
+        display: flex;
+        position: relative;
+        left: 2px;
+        margin-top: 5px;
+    }
+
+
+        .pands .p-sections {
+        width: 100%;
         display: flex
 ;
-        position: relative;
-        left: -9px;
-        margin-top: 5px;
+        flex-direction: row;
+        margin-top: 20px;
     }
 
         .wrapper2 .buttons {
@@ -5291,10 +5362,24 @@ left: 72px;
         left: -30px;
     }
 
+        .line {
+        margin-top: -3px;
+        /* margin-left: 11px; */
+        position: relative;
+        /* left: 2px; */
+        right: 1px;
+    }
+
+        .header-ipad .link6 {
+        position: relative;
+        top: 3px;
+        right: -24px;
+    }
+
     .image1-380 {
         padding: 25px;
-        backdrop-filter: blur(200px);
-        border: 1px solid #3275a5;
+        backdrop-filter: blur(190px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 28px;
         position: relative;
         right: 30px;
@@ -5313,6 +5398,7 @@ left: 72px;
         padding: 0px 14px;
         border: none;
         width: 181px;
+        
     }
 
     .wrapper2 .buttons .sec-button {
@@ -5326,6 +5412,107 @@ left: 72px;
         padding: 0px 10px;
         width: 201px;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    }
+
+
+        .header-ipad .link1 {
+        margin-top: 1px;
+        position: relative;
+        left: -9px;
+        top: 1px;
+    }
+
+        .cards {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        width: 100%;
+        padding-left: 56px;
+        padding-right: 67px;
+        padding-top: 25px;
+        /* background-color: #8dc8e8; */
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .featured-news .heading2 {
+        padding: 0px 60px 20px 55px;
+        color: rgb(23, 37, 61);
+        letter-spacing: -1.8px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 56px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .featured-news .heading1 {
+        padding: 97px 0px 8px 55px;
+        color: rgb(23, 37, 61);
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        letter-spacing: 1.04px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .solutions {
+        width: 100%;
+        background-color: rgb(244, 250, 253);
+        padding: 100px 25px 10px 50px;
+    }
+
+    .sol-left {
+        width: 740px;
+    }
+
+     .res-heading {
+        padding-top: 83px;
+        position: relative;
+        bottom: 10px;
+    }
+
+        .res-img {
+        max-width: 890px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+        .cus-sto {
+        padding: 15px 64px 15px 57px;
+    
+    }
+
+        .sto-container1 {
+        padding: 8px 8px 11px 8px;
+        border-radius: 25px;
+    }
+
+        .co-blocks .block1, .co-blocks .block2, .co-blocks .block3, .co-blocks .block4 {
+        width: 100%;
+        border: 1px solid rgb(243, 243, 243);
+        padding: 30px 25px 30px 25px;
+        background-color: white;
+        text-align: center;
+        width: 200px;
+    }
+
+        .next-card1 .txt1 {
+        margin-right: 25px;
+    }
+
+        .next-card3 .txt1 {
+        margin-right: 23px;
+    }
+
+        .next-step .next-con {
+        padding: 10px 57px 10px 57px;
     }
 }
 
