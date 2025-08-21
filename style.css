@@ -262,7 +262,7 @@ header.header-ipad{
 
 .wrapper2 .buttons .sec-button{
     color: #f4fafd;
-    border: 2px solid #b3daf0;
+    border: 2px solid #8dc8e8;
     height: 55px;
     border-radius: 10px;
     background-color: #002948;
@@ -440,6 +440,7 @@ nav.featured-380{
     position: absolute;
     object-fit: cover;
     z-index: -1;
+    height: 100%;
 }
 
 .featured-news .heading1{
@@ -572,6 +573,9 @@ nav.featured-380{
     font-weight: 600;
     color: rgb(0, 66, 117);
     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
 }
 
 
@@ -853,6 +857,7 @@ nav.featured-380{
      font-size: 18px;
      font-weight: 600;
      line-height: 24px;
+     border-bottom: 1px solid rgb(174, 174, 174);
 
 }
 
@@ -923,9 +928,9 @@ nav.featured-380{
     flex-direction: column;
 }
 
-.pands .p-sections .p-section1{
+.pands .p-sections .p-section1 {
     width: 100%;
-    padding: 20px 19px 0px 19px;    
+    padding: 32px 14px 0px 14px;
 }
 
 /* .pands .p-sections .p-section1 .card1{
@@ -945,33 +950,52 @@ nav.featured-380{
     
 } */
 
-.pands .p-sections .p-section1 .card1{
+.pands .p-sections .p-section1 .card1 {
     width: 100%;
     position: relative;
+    border-radius: 25px;
+    outline: 1px solid #b9b7b7;
+
 }
+
+
 
 .pands .p-sections .p-section1 .card1 .pcon{
     padding: 20px 18px 20px 18px;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: end;
     position: absolute;
-    top: 0;
+    bottom: 0px;
    
    
 }
 
 
-.card1 picture, .card1 picture img{
+ .card1 .img1{
     display: block;
     width: 100%;
     /* height: 410px; */
     height: 100%;
-    border-radius: 30px;
+    border-radius: 25px;
     max-height: 605px;
     min-height: 410px;
+}
+
+.card1 .img2{
+    display: none;
+}
+
+.card1 .img3{
+    display: none;
+}
+.card1 .img4{
+    display: none;
+}
+
+.card1 .img5{
+    display: none;
 }
 
 .p-sections .fimage1{
@@ -1054,17 +1078,17 @@ nav.featured-380{
     gap: 10px;
 }
 
-.p-section2 .section21 .mini-card1,.p-section2 .section21 .mini-card2,.p-section2 .section21 .mini-card3{
-    padding: 16px 30px 17px 17px;
-    /* border:1px solid black; */
-    border-radius: 25px;
+.p-section2 .section21 .mini-card1, .p-section2 .section21 .mini-card2, .p-section2 .section21 .mini-card3 {
+    padding: 10px 30px 10px 11px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
-    display: flex;
+    display: flex
+;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .p-section2 .section22 .mini-card4,.p-section2 .section22 .mini-card5,.p-section2 .section22 .mini-card6{
@@ -2408,7 +2432,7 @@ line-height:24px;
     gap: 10px;
     width: 100%;
     padding: 24px 0px;
-    border-bottom: 1px solid rgb(14, 23, 38);
+    border-bottom: 1px solid rgb(174, 174, 174);
     color: rgb(14, 23, 38);
     font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     font-size: 18px;
@@ -2522,6 +2546,20 @@ line-height:24px;
 }
 .foot2 .sec456{
     flex-direction: row;
+}
+
+.card1 .img2{
+    display: block;
+    width: 100%;
+    /* height: 410px; */
+    height: 100%;
+    border-radius: 25px;
+    max-height: 605px;
+    min-height: 410px;
+}
+
+.card1 .img1{
+    display: none;
 }
 }
 
@@ -3433,10 +3471,12 @@ padding: 15px 100px 20px 20px;
 .cus-sto{
     background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/1062775-Desktop-CaseStudy-CustomerStories-BG-1600x1053?resMode=sharp2&amp;op_usm=1.5,0.65,15,0&amp;wid=1600&amp;hei=1053&amp;qlt=100&amp;fmt=png-alpha&amp;fit=constrain);
     padding: 15px 66px 15px 59px;
+    background-size: 105%;
+    background-position: top;
 }
 
 .sto-bot-part{
-    background-color: #f8fefa;
+   
     background-image: none;
     background-position: bottom;
     padding: 15px 60px 65px 47px;
@@ -3477,6 +3517,7 @@ padding: 15px 100px 20px 20px;
 .next-con .next-cards{
     flex-direction: row;
     margin-top: 30px;
+    gap: 15px;
 }
 
 .button-text4{
@@ -3553,7 +3594,25 @@ padding: 15px 100px 20px 20px;
     bottom: 25px;
 }
 
+.card1 .img2{
+    display: none;
 }
+
+    .card1 .img3 {
+        display: block;
+        width: 100%;
+        /* height: 410px; */
+        height: 100%;
+        border-radius: 40px;
+        max-height: 300px;
+        min-height: 328px;
+        border: 1px solid rgb(234, 234, 234);
+        -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+         mask-image: linear-gradient( #000 60%, rgba(0, 0, 0, 0));
+}
+    }
+
+
 
 
 
@@ -3643,7 +3702,7 @@ padding: 15px 100px 20px 20px;
     justify-content: space-between;
 }
 .foot2{
-    padding: 30px 60px 20px 60px;
+    padding: 30px 148px 20px 71px;
 }
 
 .foot2 .sec123, .foot2 .sec456{
@@ -3683,7 +3742,27 @@ padding: 15px 100px 20px 20px;
         column-gap: 28px;
         margin-right: 14px;
     }
+
+    .card1 .img3{
+        display: none;
+    }
+
+ .card1 .img4{
+    display: block;
+    width: 100%;
+    /* height: 410px; */
+    height: 100%;
+    border-radius: 25px;
+    max-height: 405px;
+    min-height: 410px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient( #000 50%, rgba(0, 0, 0, 0));
 }
+}
+
+
 
 
 @media screen and (min-width:1184px){
@@ -3880,7 +3959,7 @@ left: 3px;
 
 
         .sol-sections {
-        padding: 0px 20px 0 44px;
+        padding: 0px 20px 0 37px;
         max-width: 630px;
         overflow-y: auto;
         height: 585px;
@@ -3888,19 +3967,18 @@ left: 3px;
     }
 
         .sol-sec1, .sol-sec2, .sol-sec3, .sol-sec4, .sol-sec5 {
-        display: flex
-;
+        display: flex;
         justify-content: flex-start;
         gap: 10px;
         width: 100%;
-        padding: 30px 0 30px 0;
+        padding: 30px 4px 30px 0;
         border-bottom: none;
         color: rgb(14, 23, 38);
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
         font-size: 18px;
         font-weight: 600;
         line-height: 24px;
-        border-bottom: 1px solid rgb(14, 23, 38);
+        border-bottom: 1px solid rgb(174, 174, 174);
     }
 
     .sol-sec1{
@@ -3909,7 +3987,7 @@ left: 3px;
 
 
     .sol-sec1-extra{
-        border-bottom: 1px solid rgb(14, 23, 38);
+        border-bottom: 1px solid rgb(174, 174, 174);
         /* border-left: 3px solid #073067; */
         padding-bottom: 30px;
         /* margin-top: 30px; */
@@ -3924,12 +4002,13 @@ left: 3px;
     }
 
          .lineb {
-        top: 25px;
+        top: 24px;
         width: 15px;
         background-color: #002948;
-        height: 270px;
+        height: 250px;
         position: relative;
         right: 33px;
+
     }
 
 
@@ -4142,6 +4221,8 @@ display: block;
         margin-top: -5px;
         margin-left: 30px;
     }
+
+   
 }
 
 
@@ -4392,13 +4473,12 @@ display: block;
     }
 
         .cards {
-        display: flex
-;
+        display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 16px;
         width: 100%;
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 71px;
+        padding-right: 93px;
         padding-top: 25px;
         /* background-color: #8dc8e8; */
         max-width: 1440px;
@@ -4407,7 +4487,7 @@ display: block;
     }
 
         .featured-news .heading1 {
-        padding: 97px 0px 8px 60px;
+        padding: 97px 0px 8px 72px;
         color: rgb(23, 37, 61);
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
         letter-spacing: 1.04px;
@@ -4420,9 +4500,9 @@ display: block;
     }
 
     .featured-news .heading2 {
-        padding: 0px 60px 20px 60px;
+        padding: 0px 60px 20px 71px;
         color: rgb(23, 37, 61);
-        letter-spacing: -1.2px;
+        letter-spacing: -1.8px;
         font-size: 48px;
         font-weight: 500;
         line-height: 56px;
@@ -4742,7 +4822,7 @@ display: block;
 
     .globe-content {
         /* padding: 107px 16px 58px 16px; */
-        top: 100px;
+        top: 70px;
     }
 
     .globe-text {
@@ -4791,7 +4871,7 @@ display: block;
         font-size: 62px;
         letter-spacing: -1.55px;
         font-weight: 500;
-        margin-top: 13px;
+        margin-top: 4px;
         line-height: 72px;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
         position: relative;
@@ -4888,8 +4968,205 @@ display: block;
     line-height: 32px;
     letter-spacing: -0.24px;
 }
+
+    .mini-card1 .mhead1,.mini-card2 .mhead1 , .mini-card3 .mhead1, .mini-card4 .mhead1, .mini-card5 .mhead1, .mini-card6 .mhead1{
+   
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: normal;
+        margin-top: 20px;
+        padding-left: 12px;
+        padding-bottom: 3px;
+        margin-right: 41px;
+    }
+
+     .card1 .img4{
+        display: none;
+    }
+
+
+    .card1 .img5{
+    display: block;
+    width: 100%;
+    /* height: 410px; */
+    height: 100%;
+    border-radius: 25px;
+    min-height: 650px;
+    
+        -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    mask-image: linear-gradient( #000 40%, rgba(0,0,0,0));
 }
 
+    header.header-ipad .sub-section {
+        display: flex
+;
+        margin-right: 235px;
+    }
+
+
+        .cards .title {
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        padding: 0 14px 0 11px;
+        padding-top: 10px;
+        margin-left: 5px;
+    }
+
+        .cards .des{
+            padding: 0 12px;
+        }
+
+
+            .container2 .wrapper2 {
+        width: 700px;
+        padding-left: 70px;
+        padding-right: 17px;
+        padding-top: 3px;
+        margin-top: -7px;
+        position: relative;
+        left: 13px;
+    }
+
+        .wrapper2 .span3 {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+        font-weight: 400;
+        margin-top: 32px;
+        line-height: 24px;
+        margin-right: 25px;
+        position: relative;
+        right: 30px;
+        text-align: left;
+        top: -12px;
+    }
+
+        .wrapper2 .span1 {
+    
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.96px;
+        line-height: 16px;
+        margin-top: 13px;
+        position: relative;
+        left: -30px;
+        bottom: 4px;
+    }
+
+        .wrapper2 .buttons {
+        display: flex
+;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 8px;
+        margin-top: 25px;
+        position: relative;
+        top: -5px;
+        left: -30px;
+    }
+
+        .header-ipad .logoandline {
+        position: relative;
+        left: -3px;
+    }
+
+        .line {
+        margin-top: -3px;
+        /* margin-left: 11px; */
+        position: relative;
+        /* left: 2px; */
+        right: 0px;
+    }
+
+        header.header-ipad .links {
+        display: flex
+;
+        gap: 20px;
+        position: relative;
+        left: 11px;
+        top: 2px;
+    }
+
+
+
+        .pricing {
+        display: flex
+;
+        position: relative;
+        left: -2px;
+        margin-top: 5px;
+    }
+        .partners {
+        display: flex
+;
+        position: relative;
+        left: 2px;
+        margin-top: 5px;
+    }
+
+    .Resources {
+        display: flex;
+        position: relative;
+        left: 4px;
+        margin-top: 5px;
+    }
+
+        header.header-ipad .links2 {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        right: 170px;
+        top: 1px;
+    }
+
+
+    .p-section1 .pcon .phead1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.48px;
+   
+}
+    .resources-1 {
+        padding: 0 0px 0 0px;
+    }
+
+
+.foot2 .sec123, .foot2 .sec456 {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-around; */
+}
+
+.foot2 .sec5{
+position: relative;
+left: 50px;
+
+}
+
+.foot2 .sec2{
+position: relative;
+left: 33px;
+}
+
+.foot2 .sec3{
+position: relative;
+left: 20px;
+}
+
+.foot2 .sec4{
+position: relative;
+left: 19px;
+}
+
+.foot2 .sec5{
+position: relative;
+left: 72px;
+}
+}
 @media screen and (min-width:1496px){
         .gart {
         padding: 144px 105px 95px 97px;
@@ -4921,18 +5198,19 @@ display: block;
         margin-bottom: 25px;
     }
 
-    .container2 .wrapper2{
-        left: 0px;
-        margin-top: -11px;
+        .container2 .wrapper2 {
+        left: -3px;
+        margin-top: -6px;
     }
 
         header.header-ipad .links2{
             right: 110px;
         }
 
-        .wrapper2 .span3{
-            margin-right: 13px;
-        }
+         .wrapper2 .span3 {
+        margin-right: 5px;
+        top: -9px;
+    }
 
             nav.featured-860 .left-sec{
                 margin-right: 210px;
@@ -4955,6 +5233,99 @@ display: block;
         display: block;
         margin-right: 40px;
         margin-left: 80px;
+    }
+
+        header.header-ipad .sub-section {
+        display: flex;
+        margin-right: 254px;
+    }
+
+    .header-ipad .logoandline {
+        position: relative;
+        left: 3px;
+        top: 1px;
+    }
+
+        header.header-ipad .links {
+        display: flex
+;
+        gap: 20px;
+        position: relative;
+        left: 16px;
+        top: 3px;
+    }
+
+        .pricing {
+        display: flex
+;
+        position: relative;
+        left: -6px;
+        margin-top: 5px;
+    }
+
+    .partners {
+        display: flex
+;
+        position: relative;
+        left: -7px;
+        margin-top: 5px;
+    }
+
+        .Resources {
+        display: flex
+;
+        position: relative;
+        left: -9px;
+        margin-top: 5px;
+    }
+
+        .wrapper2 .buttons {
+        display: flex
+;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 8px;
+        margin-top: 25px;
+        position: relative;
+        top: -3px;
+        left: -30px;
+    }
+
+    .image1-380 {
+        padding: 25px;
+        backdrop-filter: blur(200px);
+        border: 1px solid #3275a5;
+        border-radius: 28px;
+        position: relative;
+        right: 30px;
+        top: -19px;
+        right: 41px;
+        top: 2px;
+    }
+
+        .wrapper2 .buttons .first-button {
+        height: 52px;
+        border-radius: 10px;
+        background-color: #b3daf0;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0px 14px;
+        border: none;
+        width: 181px;
+    }
+
+    .wrapper2 .buttons .sec-button {
+        color: #f4fafd;
+        border: 2px solid #b3daf0;
+        height: 52px;
+        border-radius: 10px;
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 0px 10px;
+        width: 201px;
+        font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
     }
 }
 
@@ -5021,11 +5392,10 @@ display: block;
     }
 
         header.header-ipad .links2 {
-        display: flex
-;
+        display: flex;
         gap: 20px;
         position: relative;
-        right: 42px;
+        right: 39px;
         top: 1px;
     }
 
@@ -5101,6 +5471,7 @@ display: block;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
         position: relative;
         left: -22px;
+        top: 1px;
     }
 
         .wrapper2 .span2 {
@@ -5126,7 +5497,7 @@ display: block;
         margin-top: 32px;
         line-height: 24px;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
-        margin-right: 14px;
+        margin-right: 10px;
         position: relative;
         right: 21px;
         text-align: left;
@@ -5199,6 +5570,7 @@ display: block;
         margin-top: -33px;
         position: relative;
         left: -12px;
+        top: 2px;
     }
 
         header.header-ipad .sub-section {
@@ -5242,4 +5614,40 @@ display: block;
         padding-left: 110px;
         padding-right: 160px;
     }
+
+    .p-section2 .section21 .mini-card1, .p-section2 .section21 .mini-card2, .p-section2 .section21 .mini-card3{
+        padding: 10px;
+    }
+
+        .header-ipad .logoandline {
+        position: relative;
+        left: 1px;
+    }
+
+        header.header-ipad .links {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        left: 16px;
+        top: 2px;
+    }
+
+         .sol-sec2, .sol-sec3, .sol-sec4, .sol-sec5 {
+     
+        padding: 32px 0 32px 0;
+       
+        border-bottom: 1px solid rgb(174, 174, 174);
+    }
+
+        .sol-sec1-extra {
+        border-bottom: 1px solid rgb(174, 174, 174);
+        padding-bottom: 30px;
+    
+    }
+
+    .sol-left {
+        width: 835px;
+    }
+    
+    
 }
