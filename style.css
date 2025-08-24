@@ -1629,7 +1629,7 @@ display: none;
 }
 
 .block-sec .s1,.block-sec .s2,.block-sec .s3,.block-sec .s4,.block-sec .s5,.block-sec .s6{
-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
 padding: 10px 100px 10px 20px;
 white-space: nowrap;
 font-size: 16px;
@@ -1843,14 +1843,14 @@ line-height:24px;
 
 .cus-sto .container{
     width: 100%;
-   
-    
+    padding: 1px;
     margin-top: 35px;
     display: flex;
     overflow-x: auto;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
     gap: 10px;
+    
 }
 
 .cus-sto .headings{
@@ -1866,6 +1866,8 @@ line-height:24px;
     border-radius: 18px;
     display: flex;
     flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+
 }
 .sto-container1 .sto-img{
     width: 100%;
@@ -5527,7 +5529,6 @@ left: 72px;
 
         .co-blocks .block1, .co-blocks .block2, .co-blocks .block3, .co-blocks .block4 {
         width: 100%;
-        border: 1px solid rgb(243, 243, 243);
         padding: 30px 25px 30px 25px;
         background-color: white;
         text-align: center;
