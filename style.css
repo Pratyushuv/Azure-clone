@@ -794,7 +794,7 @@ nav.featured-380{
 
 }
 .sol-but1 .button1{
-    padding: 8px 15px 8px 15px;
+        padding: 8px 24px 8px 24px;
     border-radius: 20px;
     border: none;
     background-color: rgb(0, 85, 151);
@@ -822,7 +822,7 @@ nav.featured-380{
 }
 
 .sol-but1 .button2,.sol-but1 .button3,.sol-but1 .button4,.sol-but1 .button5{
-    padding: 8px 12px 9px 12px;
+    padding: 8px 24px 9px 24px;
     border-radius: 20px;
     border: none;
     color: rgb(0, 66, 117);
@@ -930,7 +930,7 @@ nav.featured-380{
 
 .pands .p-sections .p-section1 {
     width: 100%;
-    padding: 32px 14px 0px 14px;
+    padding: 32px 20px 0px 20px;
 }
 
 /* .pands .p-sections .p-section1 .card1{
@@ -954,14 +954,15 @@ nav.featured-380{
     width: 100%;
     position: relative;
     border-radius: 25px;
-    outline: 1px solid #b9b7b7;
+    background-color: white;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
 
 }
 
 
 
 .pands .p-sections .p-section1 .card1 .pcon{
-    padding: 20px 18px 20px 18px;
+    padding: 20px 16px 5px 16px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -978,9 +979,9 @@ nav.featured-380{
     width: 100%;
     /* height: 410px; */
     height: 100%;
-    border-radius: 25px;
+    border-radius: 17px;
     max-height: 605px;
-    min-height: 410px;
+    min-height: 400px;
     object-fit: none;
 }
 
@@ -1014,7 +1015,7 @@ nav.featured-380{
     line-height: 32px;
     letter-spacing: -0.36px;
     color: rgb(14, 23, 38);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .p-section1 .pcon .phead2{
@@ -1024,7 +1025,7 @@ nav.featured-380{
     line-height: 24px;
     letter-spacing: -0.48px;
     color: rgb(23, 37, 61);
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .p-section1 .pcon .pbutton{
@@ -1063,7 +1064,7 @@ nav.featured-380{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 17px;
 }
 
 
@@ -1663,17 +1664,31 @@ line-height:24px;
 }
 
 
+.lr .lb img{
+    width: 30px;
+    height: 30px;
+}
+
+.lr .rb img{
+    width: 30px;
+    height: 30px;
+}
+
 
 
 .lr .rb{
     border: 2px solid #004275;
     border-radius: 50%;
+    padding: 2px;
+
 }
 
 
 .lr .lb{
-    border: 2px solid #cbe8ff;
+    border: 2px solid #BEC8D0;
     border-radius: 50%;
+    padding: 2px;
+  
 }
 
 .resources-2{
@@ -1771,7 +1786,7 @@ line-height:24px;
     line-height: 22px;
     letter-spacing: -0.3px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: rgb(179, 218, 240);
     border: none;
     padding: 15px 0 15px 0;
@@ -2969,7 +2984,10 @@ nav.featured-860{
     padding-left: 50px;
     padding-right: 50px;
     gap: 35px;
-    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
     }
 
 
@@ -5248,12 +5266,17 @@ left: 72px;
     }
 
             nav.featured-860 .left-sec{
-                margin-right: 210px;
+                margin-right: 180px;
             }
 
 
             .lineb{
                 top: 6px;
+                        width: 10px;
+        background-color: #002948;
+        height: 269px;
+        position: relative;
+        right: 33px;
             }
 
     .foot2{
@@ -5398,7 +5421,7 @@ left: 72px;
 
         .wrapper2 .buttons .first-button {
         height: 52px;
-        border-radius: 10px;
+        border-radius: 8px;
         background-color: #b3daf0;
         font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
         font-size: 15px;
@@ -5413,7 +5436,7 @@ left: 72px;
         color: #f4fafd;
         border: 2px solid #b3daf0;
         height: 52px;
-        border-radius: 10px;
+        border-radius: 8px;
         background-color: transparent;
         font-size: 15px;
         font-weight: 600;
@@ -5537,6 +5560,39 @@ left: 72px;
         position: relative;
         left: 47px;
     }
+
+        .globe .text1 {
+        
+        bottom: 11px;
+    }
+
+        .globe .text2 {
+        
+        bottom: 6px;
+    }
+
+        .main3 {
+       padding: 0 46px;
+    }
+
+    .ai .section1 .sec1 {
+    gap: 15px;
+}
+
+.ai .main3 .chat-img{
+    margin-top: 4px;
+}
+
+.ai .main3 .sec2{
+    position: relative;
+    top: 4px;
+}
+
+.section2{
+    padding-left: 15px;
+}
+
+  
 }
 
 @media screen and (min-width:1880px){
