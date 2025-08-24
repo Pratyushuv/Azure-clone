@@ -4241,6 +4241,20 @@ display: block;
 
 }
 
+@media screen and (min-width:1349px){
+        .partners {
+        display: flex;
+        position: relative;
+        left: -4px;
+        margin-top: 5px;
+    }
+
+    .header-ipad .logoandline {
+        position: relative;
+        left: 5px;
+    }
+}
+
 @media screen and (min-width:1380px){
     
     .block-sec{
@@ -5157,7 +5171,7 @@ display: block;
     .Resources {
         display: flex;
         position: relative;
-        left: 4px;
+        left: -7px;
         margin-top: 5px;
     }
 
@@ -5221,7 +5235,33 @@ left: 72px;
         letter-spacing: -1.2px;
         line-height: 56px;
     }
+
+        .header-ipad .logoandline {
+        position: relative;
+        left: -1px;
+    }
+
+        .wrapper2 .buttons .first-button {
+        width: 182px;
+        padding: 0px 17px;
+    }
+        .wrapper2 .buttons .sec-button {
+        padding: 0px 14px;
+        width: 199px;     
+    }
+
+        .image1-380 {
+        right: 30px;
+        top: -19px;
+        right: 41px;
+        top: 3px;
+    }
+
+ 
 }
+
+
+
 @media screen and (min-width:1496px){
         .gart {
         padding: 144px 105px 95px 97px;
@@ -5282,7 +5322,7 @@ left: 72px;
             }
 
     .foot2{
-        gap: 110px;
+        gap: 65px;
         max-width: 1706px;
         margin-right: auto;
         margin-left: auto;
